@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="logo/logo.jpg" alt="FPCM logo" width="800"/>
+<p align="left">
+  <img src="logo/logo.jpg" alt="FPCM logo" width="500"/>
 </p>
 
 # FPCM (Fast Parametric Curve Matching)
