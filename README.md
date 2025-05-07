@@ -6,8 +6,14 @@ Toolbox for automatic detection and localization of interictal events in MEG/EEG
 - Robust against noisy high-amplitude transients
 - Adaptable to different scales of the patterns
 
+## Modules:
+- src/fpcm_detector.py — Core algorithm for spike detection using FPCM
+- src/summary.py — Convenient visualization tools of the results (e.g., topographies of the spikes, overlays with the splines, etc.)
+- src/source_loc.py/ — Dipole fitting of the detected spikes
+- src/utils.py/ — Auxiliary tools for evaluating performance, etc.
+
 ## Example usage
-An example script demonstrating the use of the FPCM algorithm is available in ...
+An example script demonstrating the use of the FPCM algorithm is available in scripts/FPCM demo.ipynb
 
 You can download the simulated MEG dataset with interictal spikes used in this script from [Google Drive](https://drive.google.com/file/d/1MHGGDDmAxTF1qWi7Og86pMRp1SrorUzq/view?usp=share_link). 
 
