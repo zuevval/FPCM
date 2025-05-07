@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/logo.jpg" alt="FPCM logo" width="800"/>
+</p>
+
 # FPCM (Fast Parametric Curve Matching)
 Toolbox for automatic detection and localization of interictal events in MEG/EEG
 
