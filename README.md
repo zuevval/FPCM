@@ -16,6 +16,10 @@ Toolbox for automatic detection and localization of interictal events in MEG/EEG
 - `src/source_loc.py` — Dipole fitting of the detected spikes
 - `src/utils.py` — Auxiliary tools for evaluating performance, etc.
 
+<p align="left">
+  <img src="logo/pipeline.png" alt="pipeline" width="700"/>
+</p>
+
 ## Example usage
 An example script demonstrating the use of the FPCM algorithm is available in `scripts/FPCM demo.ipynb`
 
