@@ -29,3 +29,6 @@ You can download the simulated MEG dataset with interictal spikes used in this s
 If you use this code, please cite the following paper:
 
 *Kleeva, D., Soghoyan, G., Komoltsev, I., Sinkin, M., & Ossadtchi, A. (2022). Fast parametric curve matching (FPCM) for automatic spike detection. Journal of Neural Engineering, 19(3), 036003.* 
+
+## License
+This project is licensed under the [MIT License](./LICENSE).
