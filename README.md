@@ -20,6 +20,13 @@ Toolbox for automatic detection and localization of interictal events in MEG/EEG
   <img src="logo/pipeline.png" alt="pipeline" width="700"/>
 </p>
 
+## Installation
+
+```bash
+micromamba create -f environment.yml
+micromamba activate FPCM
+```
+
 ## Example usage
 An example script demonstrating the use of the FPCM algorithm is available in `scripts/FPCM demo.ipynb`
 
