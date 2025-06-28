@@ -8,3 +8,4 @@ dependencies:
   - mne
   - matplotlib
   - jupyter
+  - beautifulsoup4

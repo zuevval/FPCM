@@ -9,6 +9,8 @@ Email: dkleeva@gmail.com
 """
 from __future__ import annotations
 import warnings
+
+from tqdm import tqdm
 warnings.filterwarnings("ignore")
 import numpy as np
 from typing import Dict, List, Tuple
@@ -249,7 +251,7 @@ def detect_spikes_fpcm(
 
     box = np.ones(T) / T
 
-    for ch in range(n_ch):
+    for ch in tqdm(range(n_ch), "channels"):
         x = data[ch,:]
         C = _convolve_filters(x, piBp)     # (6, n_times)
         coeffs.append(C)

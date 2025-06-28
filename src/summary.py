@@ -15,6 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import mne
 from mne.viz import plot_topomap
+from tqdm import tqdm
 
 # ------------------------------------------------------------------
 # 1. Epoch construction
@@ -263,7 +264,7 @@ def overlay_spline_fit_grid(
     fig, axes = plt.subplots(n_rows, n_cols, figsize=figsize, sharex=False)
     axes = axes.flatten()
 
-    for idx, (ax, peak) in enumerate(zip(axes, peaks)):
+    for idx, (ax, peak) in tqdm(enumerate(zip(axes, peaks))):
         hit_ch = np.where(hits[:, idx])[0]
         if hit_ch.size == 0:
             ax.axis("off")
