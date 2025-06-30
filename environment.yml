@@ -9,3 +9,6 @@ dependencies:
   - matplotlib
   - jupyter
   - beautifulsoup4
+  - pip
+  - pip:
+      - pyhealth
